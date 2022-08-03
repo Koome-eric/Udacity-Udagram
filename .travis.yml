@@ -1,0 +1,9 @@
+language: node.js
+node:
+- 16
+
+before_script:
+- npm install
+
+scripts:
+- node server.js
